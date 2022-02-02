@@ -13,7 +13,7 @@
 
 © Furuhashi Laboratory/Yuta Kita, CC BY 4.0
 
-## 中間発表
+## 最終発表
 
 
 # 【2021年度ゼミ論】タイトル：
