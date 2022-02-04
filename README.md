@@ -127,7 +127,7 @@ uMap http://u.osmfr.org/m/712675/
 <img width="70%" alt="Meta 二回分" src="https://user-images.githubusercontent.com/62396370/152561373-c2d975b9-a09b-4694-9790-5cd00adb18fe.png">
 しかし、点群の数は増えたが今度はどこがコースなのかや、建物すら識別することが出来なくなってしまった。
 
-次に外苑いちょう並木だけの画像データを点群化したみた。すると、少しながらうまくいかなかった
+次に外苑いちょう並木だけの画像データを点群化したみた。
 
 <img width="70%" alt="外苑いちょう並木点群" src="https://user-images.githubusercontent.com/62396370/152563395-a20ea0c8-2c0c-4c3a-bb51-52104b0d2021.png">
 
