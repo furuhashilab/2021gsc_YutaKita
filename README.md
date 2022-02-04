@@ -157,3 +157,7 @@ https://docs.google.com/spreadsheets/d/1TzONcB1H-n91HSwhPEUiRT71D__Lgha5n1ErH88U
 
 ## 発表用スライド
 https://docs.google.com/presentation/d/1xhiOW0CtaetFgsWtmPA6wUZIj1nBTpLzKWDcSH8xdrI/edit?usp=sharing
+
+## グラレコ
+![ゼミ論　グラレコ20220205_06523318_page-0001](https://user-images.githubusercontent.com/62396370/152610464-92ed6a2a-35d4-4e9c-b630-d84a943fa0c6.jpg)
+
