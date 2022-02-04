@@ -106,24 +106,24 @@ uMap http://u.osmfr.org/m/712675/
 <img width="448" alt="スクリーンショット 2022-02-05 0 46 11" src="https://user-images.githubusercontent.com/62396370/152559209-c6bff2ed-3b5d-43ed-af3a-c2a117e693ee.png">
 
 そのため下の画像のように殆ど形にならなかった。
-<img width="70%" alt="246 点群　失敗" src="https://user-images.githubusercontent.com/62396370/152557422-fc8af9da-7bd1-4e9b-8421-142d45dfbedc.png">
+<img width="100%" alt="246 点群　失敗" src="https://user-images.githubusercontent.com/62396370/152557422-fc8af9da-7bd1-4e9b-8421-142d45dfbedc.png">
 一度目の点群化が完成した後に、今回アップロードした画像データを見直してみると、エンジンの振動によるブレや、道路上の標識や看板などにピントがあってしまいピンボケを起こしている画像、太陽の光が強く入っている画像などがあることに気が付いた。
 
 そのため、可能な限り低速走行で、尚且つすぐにシフトアップしエンジンの回転数を上げないようにして振動対策を行い、カメラをより上向きにすることで道路上の標識にピントが合わないようにした。また、通行車両が少ない時間を選んだ上に、太陽光が入りにくい時間を選んで走行するなどの対策を施した結果、759 out of 995（76％）まで画像を使用することができた。
 <img width="448" alt="スクリーンショット 2022-02-05 0 47 01" src="https://user-images.githubusercontent.com/62396370/152559266-a4f5ef96-77bc-4cb1-9509-ce142fce5c7d.png">
 
-<img width="70%" alt="246 点群　成功 2022-02-01 1 44 25" src="https://user-images.githubusercontent.com/62396370/152557277-66216348-73f9-4ecb-8c9e-93eaa49d02a2.png">
+<img width="100%" alt="246 点群　成功 2022-02-01 1 44 25" src="https://user-images.githubusercontent.com/62396370/152557277-66216348-73f9-4ecb-8c9e-93eaa49d02a2.png">
 それでも空撮画像からのような綺麗な点群データは作成することはできなかった。しかし、最初の点群では識別することが出来なかった建物などが識別できるようになった。
-<img width="70%" alt="スクリーンショット 2022-02-05 0 29 14" src="https://user-images.githubusercontent.com/62396370/152559333-ec5105fe-4ccc-48cb-90c3-13c8548bb445.png">
+<img width="100%" alt="スクリーンショット 2022-02-05 0 29 14" src="https://user-images.githubusercontent.com/62396370/152559333-ec5105fe-4ccc-48cb-90c3-13c8548bb445.png">
 
 
 次に、Metashapeに今回撮影した全ての画像データをアップロードし、データ量を増やすことで点群データの質を高めていくという方法をとった。このMetashapeは自分のパソコンで処理を行うため、かなりのスペックを要求される。
 最初に自分のPC(MacBook Pro2021,M1pro 10コアCPU,16コアGPU,16GBメモリ)でHighest qualityで処理を開始したが、１時間経過しても1%しか処理が終わらず、残り２days,14hoursと表示されたため、Mediumの設定に変更したところ、約１時間半で処理が終了した。
-<img width="70%" alt="Meta 二回分" src="https://user-images.githubusercontent.com/62396370/152561373-c2d975b9-a09b-4694-9790-5cd00adb18fe.png">
+<img width="100%" alt="Meta 二回分" src="https://user-images.githubusercontent.com/62396370/152561373-c2d975b9-a09b-4694-9790-5cd00adb18fe.png">
 しかし、点群の数は増えたが今度はどこがコースなのかや。建物すら識別することが出来なくなってしまった。
 
 次に外苑いちょう並木だけの画像データを点群化したみた。すると、少しながらうまくいかなかった
-<img width="70%" alt="外苑いちょう並木点群" src="https://user-images.githubusercontent.com/62396370/152563395-a20ea0c8-2c0c-4c3a-bb51-52104b0d2021.png">
+<img width="100%" alt="外苑いちょう並木点群" src="https://user-images.githubusercontent.com/62396370/152563395-a20ea0c8-2c0c-4c3a-bb51-52104b0d2021.png">
 このように拡大すると、少しながら点群化がうまくいかなかった理由が分かってきた。撮影ポイントが異なる画像を使って点群化すると、このように撮影されたポイントとポイントの間に隙間ができ、点群も段差ができてしまうことがわかった。
 
 
@@ -131,11 +131,11 @@ uMap http://u.osmfr.org/m/712675/
 そこで、今度はスケールを小さくし、一つの対象物をどのように撮影すれば綺麗な点群ができるかを考えていった。
 
 まずは、撮影するポイントは変えず、撮影する向きだけを変えて撮ったデータを基に点群化をしていった。
-<img width="70%" alt="絵画館　点群　スクショ" src="https://user-images.githubusercontent.com/62396370/152566263-69cd6a37-4dbd-4981-8c15-d9f39813685c.png">
+<img width="100%" alt="絵画館　点群　スクショ" src="https://user-images.githubusercontent.com/62396370/152566263-69cd6a37-4dbd-4981-8c15-d9f39813685c.png">
 すると、とても綺麗な点群データが完成した。少し平面的ではあるが、これが何の建物であるか容易に認識できるレベルである。
 
 次に、撮影ポイントを変えながら、一つの対象物（建物）を囲うように撮影していった。一周するように撮影すれば精度の高い点群データを取得できると言うデータは既にあったため、敢えて一部分しか撮影することができない建物を選択した。
-<img width="70%" alt="とらや　点群　スクショ" src="https://user-images.githubusercontent.com/62396370/152568006-4c8347ed-d747-4636-9d5f-e040d9fd30c0.png">
+<img width="100%" alt="とらや　点群　スクショ" src="https://user-images.githubusercontent.com/62396370/152568006-4c8347ed-d747-4636-9d5f-e040d9fd30c0.png">
 すると、一部は認識することができるが、全体像の認識は出来なかった。撮影するポイントは変えず、撮影する向きだけを変えて撮ったデータを基に点群化した時と比較しても、この差は明白である。
 
 ## Discussion
