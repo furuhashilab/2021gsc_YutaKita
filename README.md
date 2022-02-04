@@ -154,3 +154,6 @@ Mapillary点群データ
 ## 参考文献
 
 https://docs.google.com/spreadsheets/d/1TzONcB1H-n91HSwhPEUiRT71D__Lgha5n1ErH88UmgU/edit?usp=sharing
+
+## 発表用スライド
+https://docs.google.com/presentation/d/1xhiOW0CtaetFgsWtmPA6wUZIj1nBTpLzKWDcSH8xdrI/edit?usp=sharing
