@@ -50,6 +50,7 @@
 <img width="70%" alt="Twinmotion 青山" src="https://user-images.githubusercontent.com/62396370/152600259-2f34e9a3-4c71-470a-8bb8-7e3cd4772e54.png">
 
 撮影方法としてはバイクの前後にスマートフォンを取り付け、Mapillaryを使用し0.3秒/１枚のペースで撮影したが、ブレブレでまともな画像データが出来なかったためデフォルトの１秒/１枚のペースで撮影した。（撮影したデータはMapillaryにアップロード済み）
+
 <img src="https://user-images.githubusercontent.com/62396370/152547598-aedb6393-dd94-4610-b540-62bfc9c7f26a.jpeg" width="49%">  <img src="https://user-images.githubusercontent.com/62396370/152547612-570879da-65a0-4cc3-89b8-994470f1cf2a.jpeg" width="49%">
 一周で800~900枚の画像データを取得することができた。
 
