@@ -122,7 +122,7 @@ uMap http://u.osmfr.org/m/712675/
 次に、Metashapeに今回撮影した全ての画像データをアップロードし、データ量を増やすことで点群データの質を高めていくという方法をとった。このMetashapeは自分のパソコンで処理を行うため、かなりのスペックを要求される。
 最初に自分のPC(MacBook Pro2021,M1pro 10コアCPU,16コアGPU,16GBメモリ)でHighest qualityで処理を開始したが、１時間経過しても1%しか処理が終わらず、残り２days,14hoursと表示されたため、Mediumの設定に変更したところ、約１時間半で処理が終了した。
 <img width="100%" alt="Meta 二回分" src="https://user-images.githubusercontent.com/62396370/152561373-c2d975b9-a09b-4694-9790-5cd00adb18fe.png">
-しかし、点群の数は増えたが今度はどこがコースなのかや。建物すら識別することが出来なくなってしまった。
+しかし、点群の数は増えたが今度はどこがコースなのかや、建物すら識別することが出来なくなってしまった。
 
 次に外苑いちょう並木だけの画像データを点群化したみた。
 <img width="100%" alt="外苑いちょう並木点群" src="https://user-images.githubusercontent.com/62396370/152563395-a20ea0c8-2c0c-4c3a-bb51-52104b0d2021.png">
